@@ -12,7 +12,9 @@ public class Register {
 		Password="";
 		ConfirmPassword="";
 	}
-
+	/*
+	 * dsna;ndiasfioansofnas;fnkasnjgna;snga;snga;nsgkna's'kmaskfm'alskmfkamsg
+	 */
 	public void Update(){
 	}
 
