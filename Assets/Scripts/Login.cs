@@ -6,6 +6,8 @@ public class LoginState:GameState {
 	
 	private string Username;
 	private string Password;
+	private string cacatoare;
+	private string pisatoare;
 
 	public void Start(){
 		Username = "";
