@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Register.cs" />
      <Compile Include="Assets\Scripts\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\Scripts\WeaponSlot.cs" />
      <Compile Include="Assets\Scripts\WeaponSystem\MissileLauncher.cs" />
      <Compile Include="Assets\Scripts\WeaponSystem\Projectile.cs" />

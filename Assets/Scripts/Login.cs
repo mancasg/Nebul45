@@ -6,24 +6,25 @@ public class LoginState:GameState {
 	
 	private string Username;
 	private string Password;
-	private string cacatoare;
-	private string pisatoare;
+	private WWW DBContaint;
 
-	public void Start(){
+	public override void Start(){
 		Username = "";
 		Password = "";
 	}
 
-	public void Update(){
+	public override void Update(){
 	
 	}
 
-	public void OnGUI(){
+	public override void OnGUI(){
 		GUI.Box(new Rect(0,0,Screen.width,Screen.height),"");
 		Username = GUI.TextField (new Rect (100, 80, 50, 20),Username,25);
 		Password = GUI.PasswordField (new Rect (300,80,50,20),Password,"*"[0],25);
 		if(GUI.Button(new Rect(100,100,100,50),"Login")){
-
+			/*DataBase DB=new DataBase();
+			DBContaint=DB.GET("https://nebul45.firebaseio.com/.json");
+*/
 		}
 		if(GUI.Button(new Rect(300,100,100,50),"Quit")){
 			Application.Quit();
