@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9e92828a51fb7da42ad7ce0ff29ff821
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - prefabDbgCube: {fileID: 100000, guid: 448fb7601f246a946a0d8170b278c09d, type: 2}
+  - prefabPlayer: {fileID: 100006, guid: 7b8834f246904e94a9a36e381b5cfba2, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
